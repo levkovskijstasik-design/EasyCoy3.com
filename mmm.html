@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Easy Союз</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(180deg, red, orange, yellow, green, blue, purple);
+            background-attachment: fixed;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .overlay {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        h1 {
+            font-size: 4rem;
+            margin: 0 0 30px 0;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            text-shadow: 2px 2px 15px rgba(0,0,0,0.5);
+        }
+        .btn-container {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .btn {
+            display: inline-block;
+            background: #d43f3f;
+            padding: 15px 30px;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: 0.3s;
+            cursor: pointer;
+            border: none;
+            font-size: 1rem;
+        }
+        .btn:hover {
+            background: #ff4d4d;
+            transform: scale(1.1);
+        }
+        .btn-main {
+            padding: 20px 50px;
+            font-size: 1.2rem;
+        }
+        .footer-text {
+            padding: 20px;
+            font-size: 1.2rem;
+            text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+            max-width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <h1>EASY СОЮЗ</h1>
+        <div class="btn-container">
+            <a href="https://t.me/easycorporationcoy3" target="_blank" class="btn">TELEGRAM</a>
+            <a href="https://www.youtube.com/@EasyCoy3/shorts" target="_blank" class="btn btn-main">ВСТУПИТЬ</a>
+            <button onclick="alert('Не бойся, после заката всегда наступает рассвет!')" class="btn">VK</button>
+        </div>
+    </div>
+    <div class="footer-text">
+        Воссоединённые каналы не всегда нормальные но и не всегда плохие
+    </div>
+</body>
+</html>
