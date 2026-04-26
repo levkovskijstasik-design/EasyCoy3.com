@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Союз | Официальный сайт</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">EASY СОЮЗ</div>
+            <ul>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#stats">Статистика</a></li>
+                <li><a href="#join">Вступить</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <img src="logo.png" alt="Easy Союз Лого" class="main-logo">
+            <h1>Присоединяйся к Easy Союзу</h1>
+            <p>Вместе мы сильнее. Строим будущее в один клик.</p>
+            <a href="#join" class="btn">Стать участником</a>
+        </div>
+    </section>
+
+    <section id="about" class="content">
+        <h2>О нашем союзе</h2>
+        <p>Easy Союз — это объединение единомышленников, стремящихся к эффективности и общему успеху.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Easy Союз. Все права защищены.</p>
+    </footer>
+</body>
+</html>
